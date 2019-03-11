@@ -2,3 +2,5 @@ lecture 16 - graphlab/powergraph - Monday 3/11 [PowerGraph: Distributed Graph-Pa
 
 
 lecture 15 - graph processing - pregel - wed 3/6 [Pregel: A System for Large-Scale Graph Processing]
+
+The paper presents a computational model for the task which is efficient processing on large graphs(billions of vertices, trillions of edges).
