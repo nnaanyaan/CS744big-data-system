@@ -1,1 +1,16 @@
-
+Summary:Propose a parameter sever framework for distributed machine learning problem.
+It is a framework manages asynchronous data communication between nodes.
+First, need to demonstrate the scalability of the the framework.
+To illustrate "learning tasks are often performed in a unreliable cloud environment".(three months experiment from a company here)
+------
+Flexible consistency models:Our parameter server provides five key features:1.Efficient communication 2.Flexible consistency models
+3.Elastic Scalability.4.Fault Tolerance and Durability 5.Ease of Use
+ Engineering Challenges1.Communication2.Fault tolerance
+ Related Work-YahooLDA-Distbelief-GraphLab/. In a sense, a core goal of theparameter server framework is to capture the benefits ofGraphLab’s asynchrony without its structural limitations.
+feature-extraction, the objective function, and learning.
+To motivate the design decisions in our system, next we briefly outline the two widely used machine learning
+technologies that we will use to demonstrate the efficacy
+of our parameter server.
+Risk Minimization
+The most expensive step in Algorithm 1 is computing
+the subgradient to update w.
