@@ -14,3 +14,4 @@ of our parameter server.
 Risk Minimization
 The most expensive step in Algorithm 1 is computing
 the subgradient to update w.
+Architecture: 3.1(Key,Value) Vectors 3.2 Range Push and Pull
