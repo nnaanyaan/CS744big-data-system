@@ -20,3 +20,15 @@ Architecture: 3.1(Key,Value) Vectors 3.2 Range Push and Pull 3.3 User-Defined Fu
 4.1 Vector Clock 4.2 Messages 4.3 Consistent Hashing 4.4 Replication and Consistency 4.5 Server Management 4.6 Worker Management
 5 Evaluation We evaluate our parameter server based on the use cases of Section 2 — Sparse Logistic Regression and Latent
 Dirichlet Allocation. 
+
+Summary: 
+We described a parameter server framework to solve distributed machine learning problems. This framework is
+easy to use: Globally shared parameters can be used as
+local sparse vectors or matrices to perform linear algebra
+operations with local training data. It is efficient: All communication is asynchronous. Flexible consistentcy models are supported to balance the trade-off between system
+efficiency and fast algorithm convergence rate. Furthermore, it provides elastic scalability and fault tolerance,
+aiming for stable long term deployment. Finally, we show
+experiments for several challenging tasks on real datasets
+with billions of variables to demonstrate its efficiency. We
+believe that this third generation parameter server is an
+important building block for scalable machine learning.
