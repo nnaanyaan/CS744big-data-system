@@ -1,18 +1,69 @@
-Neuron:
-Motivating Depth of a Neural Net:
-Output Layers:
-Hidden Layers:
-Discrete convolution: 2-D example.
+In this lecture, two classmates share with two PPT, one if for machine learning the other shows tensorflow paper:
+Part 1: Machine Learning
+1. Neuron
+2. Motivating Depth of a Neural Net
+(1) Suppose there is a k1 dimensional input to be mapped to a k2 dimensional output
+(2) We have a budget of (m+n) intermediate (hidden) neurons.
+(3) If we put all of them in a single layer, we have k1k2(m+n) paths from input to output.
+(4) If we have 2 hidden layers of m and n neurons, k1k2mn paths from input to output.
+More depth => More impressive!
+3. Output Layers
+(1) Binary classification :  y = δ(WTh + b) where sigmoid δ(z) = 1/(1 + exp(-z))
+(2) Output is a value in (0, 1)
+4. Hidden Layers:
+(1) o = r(WTx + b)
+(2) Typical activation function r
+a. Threshold t(z) = II[z >= 0]
+b. Sigmoid δ(z) = 1/(1 + exp(-z))
+c. Tanh tanh(z) = 2δ(2z) - 1
+d. ReLU relu(z) = max{z, 0}
+(3) Problem with sigmoid/tanh: saturation   (twoo small gradient)
+(4) Activation function ReLU (rectified linear unit)
+a. ReLU(z) = max{z, 0}
+(5) Gradient decent in weight space.
+Given a training set D = {(x1, y1), (), .... (xm, ym)} we can specify an error measure that is a function of our weight vector w
+(6) Backpropagation notation
+we will use 
+a. o to indicate the output, net the linear combination of inputs
+b. subscripts on o, net to indicate which unit they refer to
+c. subscripts to indicate the unit a weight emanates from and goes to
+d. each weight is changed by 
+(7) Backpropagation illustrated
+a. calculate error for hidden layer  
+b. determine updates for weights to hidden units using hidden-unit errors.
+(8) Convolutional neural networks
+a. Strong empircial performance
+<1> Especially for computer vision
+<2> Also used for speech recognition, natural language processing.
+b. Use convolution in place of general matrix/tensor multiplication in at least one of their layers.
+for specific kind of weight matrix/tensor W.
+(9) Discrete convolution: 2-D example.
 (features extractions,)
+(10) Discrete convolution: padding
+*****************************************************
+Motivating Convolution
+a. Suppose there is a 1024*1024*3 image, to be scaled down to 1000 dimensions
+b.Needs a matrix of size 1000*1024*1024*3 ~ 3*10^9
+c. Too many parameters!
+d. Can significantly reduce "parameter sharing" - use a small number of parameters to aggregate neighborhood-level information.
+e. Other benefits
+(1) Sparse connectivity
+(2) Parameter sharing
+(3) Tanslation equivariance
+(4) Arbitrary input sizes
 
 How neural networks tranfers to convolutional networks.
 Translation equivariance.
 
 mapping, filter, GPU, parameters,
 More conventional neural network : https://github.com/vdumoulin/conv_arithmetic
-
+************************************************************
+ConvNets have also been used for 
+(1)Image Segmentation (2) Object Recognition (3) Speech (4) Text
+*********************************************************
 Recurrent neural networks;
 New Cell State;
 Output;
 Long short-term memory;
+********************************************
 
