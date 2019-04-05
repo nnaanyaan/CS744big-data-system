@@ -41,4 +41,6 @@ In this paper, we focus on
 neural network training as a challenging systems problem,
 and select two representative applications from this space:
 image classification and language modeling.
+-----------------------------------------
+Purpose : 1.Interface for expressing machine learning algorithm.
 
