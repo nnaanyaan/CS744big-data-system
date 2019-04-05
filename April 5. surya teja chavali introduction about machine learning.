@@ -11,3 +11,5 @@ Translation equivariance.
 mapping, filter, GPU, parameters,
 More conventional neural network : https://github.com/vdumoulin/conv_arithmetic
 
+Recurrent neural networks;
+
