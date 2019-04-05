@@ -42,5 +42,19 @@ neural network training as a challenging systems problem,
 and select two representative applications from this space:
 image classification and language modeling.
 -----------------------------------------
-Purpose : 1.Interface for expressing machine learning algorithm.
-
+Purpose : 
+1.Interface for expressing machine learning algorithm.
+(express a wide variety of algorithm, including traning and inference algorithms for deep neural network models)
+2. Implementation for executing such algorithms
+a. executed with little or no change on a wide variety of heterogeneous systems
+b. for different purposes - ranging from research to production deployment
+3.Program model
+a. Directed Dataflow Graph to express computation.
+(Questions here)
+4. Extensions
+(a) Gradient Computation 
+(b) Partial Execution
+(c) Device Constraints
+(d) Input Operations
+(e) Queues
+(f) Containers
