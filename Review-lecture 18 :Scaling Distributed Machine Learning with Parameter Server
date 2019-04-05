@@ -37,4 +37,8 @@ important building block for scalable machine learning.
 April 5th : Summary: TensorFlow: A System for Large-Scale Machine Learning 
 In this paper, we describe the TensorFlow dataflow model
 and demonstrate the compelling performance that TensorFlow achieves for several real-world applications.
+In this paper, we focus on
+neural network training as a challenging systems problem,
+and select two representative applications from this space:
+image classification and language modeling.
 
