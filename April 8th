@@ -3,4 +3,9 @@ Multr-tenant ML (Gandiva)
 GPU properties
 ML jobs fine-grained properties
 constraints, objective.
-
+------------------------
+GPU armple parallelism.
+batch size of images. 
+--------------------------
+multri-GPU machines.
+1.PCIe  2.Nvlink (irregular)+ PCIe ≈ 25 GB
