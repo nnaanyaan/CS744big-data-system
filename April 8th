@@ -1,3 +1,4 @@
+ running ML atop GPUs, specifically about multiplexing many GPUs across jobs. It is a very interesting paper.
 Last summer paper. 
 Multr-tenant ML (Gandiva)
 GPU properties
@@ -10,3 +11,4 @@ batch size of images.
 multri-GPU machines.
 1.PCIe  2.Nvlink (irregular)+ PCIe ≈ 25 GB
 GPU to GPU links.
+> (faster) network.
