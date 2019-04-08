@@ -9,3 +9,4 @@ batch size of images.
 --------------------------
 multri-GPU machines.
 1.PCIe  2.Nvlink (irregular)+ PCIe ≈ 25 GB
+GPU to GPU links.
