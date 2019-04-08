@@ -17,4 +17,9 @@ Job Group 1,
 JG2,
 ---------------------------------
 Linited GPU 1.Efficiency | 2.Virtualize
+------------------------------------
+(1) Network - communication bound
+(2) Memory is a coslimit.
+(3) Periordic | iterate ---> Predictable
+
 
