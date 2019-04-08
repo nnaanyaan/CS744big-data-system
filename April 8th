@@ -12,3 +12,8 @@ multri-GPU machines.
 1.PCIe  2.Nvlink (irregular)+ PCIe ≈ 25 GB
 GPU to GPU links.
 > (faster) network.
+some are PCIE machine ; some are cluster machines.
+Job Group 1,
+JG2,
+---------------------------------
+
