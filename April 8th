@@ -22,4 +22,19 @@ Linited GPU 1.Efficiency | 2.Virtualize
 (2) Memory is a coslimit.
 (3) Periordic | iterate ---> Predictable
 
+evaluate should decusion.
+(4) Recursion Use.
+suspending rame | nytubum
+------------------------------------
+Communication? --> scheduling work  --> reactive. (as many as free GPU as possible)
+job --- How many cansdidated GPUs.
+1.CPU socket  2. machine  3.Only free GPU.
+
+summary : introspectively.
+
+this is all the machinism for 
+GPU applications for jobs, using migration.
+
+------------------------
+compare with tensorflow.
 
